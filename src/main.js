@@ -4,6 +4,8 @@ import VueResource from 'vue-resource';
 import VueRouter from 'vue-router';
 import { routes } from './routes';
 import './directives/Transform';
+import VeeValidate, { Validator } from 'vee-validate';
+import pt_BR from '../node_modules/vee-validate/dist/locale/pt_BR';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -15,6 +17,10 @@ const router = new VueRouter({
   routes,
   mode: 'history'
  });
+
+ Vue.use(VeeValidate);
+ Validator.localize('pt_BR', pt_BR);
+ 
 
 new Vue({
   el: '#app',
