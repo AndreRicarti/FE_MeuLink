@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="/static/teste.png">
     <h1 class="centralizados">{{ titulo }}</h1>
     <p v-show = "mensagem" class="centralizados"> {{ mensagem }} </p>
     <input type="search" class="filtro" v-on:input="filtro = $event.target.value" placeholder="Filtre por parte do título.">
