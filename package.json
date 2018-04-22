@@ -13,6 +13,8 @@
     "bootstrap": "^4.1.0",
     "jquery": "^3.3.1",
     "npm": "^5.8.0",
+    "popper.js": "^1.14.3",
+    "v-autocomplete": "^1.8.2",
     "vee-validate": "^2.0.6",
     "vue": "^2.5.16",
     "vue-resource": "^1.5.0",
