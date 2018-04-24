@@ -8,7 +8,7 @@
                 </router-link>
             </li>
         </ul>
-    </nav>
+    </nav> 
     
 </template>
 
