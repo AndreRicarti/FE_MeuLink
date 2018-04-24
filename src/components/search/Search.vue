@@ -31,9 +31,9 @@
                 <div class="">
                     <h2 class="">Escolha seu serviço e entre em contato com o profissional sem enrolação.</h2>
                     <div class="input-group mt-5">
-                        <input class="form-control mr-2" type="text" placeholder="Pesquisar" aria-label="Search">
+                        <input class="form-control form-control-lg mr-2" type="text" placeholder="Pesquisar" aria-label="Search">
                         <span class="input-group-btn">
-                            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                            <button class="btn btn-outline-success btn-lg" type="submit">Pesquisar</button>
                         </span>
                     </div>
                 </div> 
