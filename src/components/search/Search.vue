@@ -9,10 +9,10 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <form class="d-none d-lg-inline d-md-none form-inline my-2 my-lg-0">
+                        <form class="form-inline my-2 my-lg-0 d-none d-lg-inline d-xl-inline">
                             <button class="btn btn-outline-success my-sm-0" type="submit">Seja um Profissional</button>
                         </form>
-                        <li class="nav-item d-sm-block d-md-block">
+                        <li class="nav-item d-sm-inline d-md-none d-md-inline d-lg-none">
                             <a class="nav-link" href="#">Seja um Profissional <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -28,22 +28,28 @@
         <div class="row h-100 ">
             <div class="col-sm-2"></div>
             <div class="col-sm-8 d-flex align-items-center" style="height: 400px;">
-                <div class="">
+                <div>
                     <h2 class="">Escolha seu serviço e entre em contato com o profissional sem enrolação.</h2>
                     <div class="input-group mt-5">
-                        <input class="form-control form-control-lg mr-2" type="text" placeholder="Pesquisar" aria-label="Search">
-                        <span class="input-group-btn">
-                            <button class="btn btn-outline-success btn-lg" type="submit">Pesquisar</button>
+                        <input class="form-control form-control-lg mr-2 my-2 my-lg-0 d-none d-lg-inline d-xl-inline" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <span class="input-group-btn my-2 my-lg-0 d-none d-lg-inline d-xl-inline">
+                            <button class="btn btn-outline-success btn-lg d-none d-lg-inline d-md-none" type="button">Pesquisar</button>
                         </span>
-                    </div>
-                </div> 
+                        <input class="form-control form-control-lg d-sm-inline d-md-none d-md-inline d-lg-none" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <span class="input-group-append d-sm-inline d-md-none d-md-inline d-lg-none">
+                            <button class="btn btn-outline-success btn-lg" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>                      
+                </div>
             </div>
             <div class="col-sm-2"></div>
         </div>
         
         <footer>
             <div class="inner">
-            <p style="font-size: 11px"><b>Copyright © 1999-2018 trabi.com.br LTDA</b></p>
+            <p style="font-size: 12px"><b>Copyright © 1999-2018 trabi.com.br LTDA</b></p>
             </div>
         </footer>
     </div>
@@ -51,6 +57,5 @@
 
 <script>
 </script>
-
 <style>
-</style>
+</style>    
