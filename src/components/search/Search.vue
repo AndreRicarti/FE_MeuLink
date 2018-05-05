@@ -33,7 +33,9 @@
                     <div class="input-group mt-5">
                         <input class="form-control form-control-lg mr-2 my-2 my-lg-0 d-none d-lg-inline d-xl-inline" type="search" placeholder="Pesquisar" aria-label="Search">
                         <span class="input-group-btn my-2 my-lg-0 d-none d-lg-inline d-xl-inline">
-                            <button class="btn btn-outline-success btn-lg d-none d-lg-inline d-md-none" type="button">Pesquisar</button>
+                            <router-link :to="{ name : 'pesquisar' }">
+                                <button class="btn btn-outline-success btn-lg d-none d-lg-inline d-md-none" type="button">Pesquisar</button>
+                            </router-link>                            
                         </span>
                         <input class="form-control form-control-lg d-sm-inline d-md-none d-md-inline d-lg-none" type="search" placeholder="Pesquisar" aria-label="Search">
                         <span class="input-group-append d-sm-inline d-md-none d-md-inline d-lg-none">
